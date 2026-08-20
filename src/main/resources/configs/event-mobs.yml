@@ -1,0 +1,7 @@
+difficulty-increase-seconds: 3600
+wave-interval-seconds: 600
+boss-potion-chance: 5
+
+logging:
+  enabled: true
+  events: true

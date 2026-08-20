@@ -1,0 +1,44 @@
+name: Ruinfall_Suite
+version: 1.0.0
+main: ru.ruinfall.RuinfallSuitePlugin
+api-version: '1.21'
+description: Unified Minecraft 1.21.4 survival/event plugin suite
+author: Ruinfall
+commands:
+  aweather:
+    description: Управление кислотным дождём
+    usage: /aweather <normal|medium|hard|clear|reload>
+    permission: ruinfall.acidrain.admin
+    aliases: [acidrain]
+  particleshield:
+    description: Управление сферическими щитами из частиц
+    usage: /particleshield reload
+    permission: ruinfall.particles.admin
+  giveitems:
+    description: Выдать кастомный арсенал
+    usage: /giveitems
+    permission: ruinfall.items.admin
+  startritual:
+    description: Запустить ритуал Херобрина
+    usage: /startritual [player]
+    permission: ruinfall.herobrine.admin
+  ediff:
+    description: Управление сложностью событий
+    usage: /ediff <set|spawn|reload> <player> [level]
+    permission: ruinfall.eventmobs.admin
+permissions:
+  ruinfall.acidrain.admin:
+    description: Администрирование кислотного дождя
+    default: op
+  ruinfall.particles.admin:
+    description: Администрирование щитов
+    default: op
+  ruinfall.items.admin:
+    description: Выдача кастомного арсенала
+    default: op
+  ruinfall.herobrine.admin:
+    description: Запуск ритуалов Херобрина
+    default: op
+  ruinfall.eventmobs.admin:
+    description: Администрирование Event Mobs
+    default: op

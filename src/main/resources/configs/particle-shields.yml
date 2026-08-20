@@ -1,0 +1,16 @@
+points:
+  default:
+    world: world
+    x: 0
+    y: 100
+    z: 0
+    radius: 100.0
+    density: 10000
+    particle: END_ROD
+    frequency: 5
+    explode: false
+    explode-distance: 0.1
+
+logging:
+  enabled: true
+  events: true

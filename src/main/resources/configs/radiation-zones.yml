@@ -1,0 +1,29 @@
+points:
+  minX: -500
+  maxX: 500
+  minZ: -500
+  maxZ: 500
+  minX2: -1000
+  maxX2: 1000
+  minZ2: -1000
+  maxZ2: 1000
+
+effects:
+  poison-duration: 45
+  poison-amplifier: 7
+
+particles:
+  count-per-player: 60
+  max-radius: 150
+  y: 62
+  spread-y: 0.5
+
+audio:
+  sound: custom.radiation
+  cooldown-seconds: 9
+  volume: 1.0
+  pitch: 1.0
+
+logging:
+  enabled: true
+  events: true

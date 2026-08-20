@@ -1,0 +1,30 @@
+check-interval-minutes: 480
+trigger-chance: 5
+max-per-week: 3
+
+effects:
+  darkness-duration: 40
+  teleport-delay: 10
+  poison-duration: 30
+  kill-delay: 30
+
+storage:
+  world: world_the_end
+  x: 0
+  y: 80
+  z: 0
+  slot: 13
+
+end-coords:
+  x: 0
+  y: 80
+  z: 0
+  yaw: 0
+  pitch: 0
+
+wake-up:
+  message: "<yellow>это был кошмар...</yellow>"
+
+logging:
+  enabled: true
+  events: true

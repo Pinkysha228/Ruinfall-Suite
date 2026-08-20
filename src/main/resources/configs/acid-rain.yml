@@ -1,0 +1,17 @@
+enabled: true
+
+chances:
+  hard: 5
+  medium: 15
+
+logging:
+  enabled: true
+  events: true
+
+messages:
+  start_normal:
+    - "<gray>начался обычный дождь.</gray>"
+  start_medium:
+    - "<yellow>небо темнеет. начался кислотный дождь средней силы.</yellow>"
+  start_hard:
+    - "<red><bold>КИСЛОТНЫЙ ШТОРМ!</bold></red>"
